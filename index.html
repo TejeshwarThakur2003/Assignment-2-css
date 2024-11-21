@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Harry Potter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#author">Author</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="bookCarousel" class="carousel slide mt-3" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/p1.png" class="d-block carousel-image" alt="Harry Potter 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/p2.png" class="d-block carousel-image" alt="Harry Potter 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/p3.png" class="d-block carousel-image" alt="Harry Potter 3">
+      </div>
+      <div class="carousel-item">
+        <img src="images/p4.png" class="d-block carousel-image" alt="Harry Potter 4">
+      </div>
+      <div class="carousel-item">
+        <img src="images/p5.png" class="d-block carousel-image" alt="Harry Potter 5">
+      </div>
+      <div class="carousel-item">
+        <img src="images/p6.png" class="d-block carousel-image" alt="Harry Potter 6">
+      </div>
+      <div class="carousel-item">
+        <img src="images/p7.png" class="d-block carousel-image" alt="Harry Potter 7">
+      </div>
+    </div>
+    <button class="carousel-control-prev styled-button" type="button" data-bs-target="#bookCarousel" data-bs-slide="prev" title="Previous">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next styled-button" type="button" data-bs-target="#bookCarousel" data-bs-slide="next" title="Next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>  
+
+  <!-- Author Section -->
+  <section id="author" class="container my-5">
+    <h2 class="text-center">J.K. Rowling</h2>
+    <h3 class="text-center">British author</h3>
+    <p>
+    J.K. Rowling (born July 31, 1965, Yate, near Bristol, England) is a British author and the creator of the popular and critically acclaimed Harry Potter series, about a young sorcerer in training. The first book in the Harry Potter series, <a href="https://www.britannica.com/topic/Harry-Potter-and-the-Philosophers-Stone">Harry Potter and the Philosopher’s Stone</a> Harry Potter and the Philosopher’s Stone (1997; also published as Harry Potter and the Sorcerer’s Stone), was released under the name J.K. Rowling. (Her publisher recommended a gender-neutral pen name; born Joanne Rowling, she used J.K., adding the middle name Kathleen.) The book was an immediate success, appealing to both children, who were its intended audience, and adults. Featuring vivid descriptions and an imaginative story line, it follows the adventures of the unlikely hero Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hogwarts School of Witchcraft and Wizardry. The book received numerous awards, including the British Book Award. Succeeding volumes—Harry Potter and the Chamber of Secrets (1998), Harry Potter and the Prisoner of Azkaban (1999), Harry Potter and the Goblet of Fire (2000), Harry Potter and the Order of the Phoenix (2003), and Harry Potter and the Half-Blood Prince (2005)—also were best sellers, available in more than 200 countries and some 60 languages. The seventh and final novel in the series, Harry Potter and the Deathly Hallows, was released in 2007.
+    </p>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="container my-5">
+    <h2 class="text-center">Reviews</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="review-card">
+          <h4>John Doe</h4>
+          <p>12/01/2024</p>
+          <p>“A timeless classic! I couldn’t put it down.”</p>
+          <button class="like-btn"><span>❤️</span> <span class="like-count">0</span> Likes</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="review-card">
+          <h4>Jane Smith</h4>
+          <p>11/25/2024</p>
+          <p>“A magical journey that captures the imagination.”</p>
+          <button class="like-btn"><span>❤️</span> <span class="like-count">0</span> Likes</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="review-card">
+          <h4>Harsh</h4>
+          <p>07/21/2024</p>
+          <p>“Most amazing novel series i have ever read!!!”</p>
+          <button class="like-btn"><span>❤️</span> <span class="like-count">0</span> Likes</button>
+        </div>
+      </div><div class="col-md-6">
+        <div class="review-card">
+          <h4>Ronnie</h4>
+          <p>09/07/2024</p>
+          <p>“I like the movies more than the novel”</p>
+          <button class="like-btn"><span>❤️</span> <span class="like-count">0</span> Likes</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="review-card">
+          <h4>Karen</h4>
+          <p>01/05/2024</p>
+          <p>“Iam still amazed by the imagination of the author!! just amazing.”</p>
+          <button class="like-btn"><span>❤️</span> <span class="like-count">0</span> Likes</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="review-card">
+          <h4>Rich</h4>
+          <p>12/20/2024</p>
+          <p>“its my childhood ❤️”</p>
+          <button class="like-btn"><span>❤️</span> <span class="like-count">0</span> Likes</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" class="form-control my-2" placeholder="Your Name">
+      <input type="email" class="form-control my-2" placeholder="Your Email">
+      <textarea class="form-control my-2" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn-primary w-100">Send</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-3 bg-dark text-white">
+    @TejeshwarThakur200519563 all rights reserved
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+/* Navbar hover effect */
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+    text-shadow: 0 0 10px rgba(255, 193, 7, 0.75);
+  }
+
+/* Styling the Next/Previous Buttons */
+.styled-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #fff; 
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(2%);
+  z-index: 5; 
+}
+
+.carousel-control-prev {
+  left: 30%; 
+}
+
+.carousel-control-next {
+  right: 30%; 
+}
+
+.styled-button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: #000;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Carousel Image Styling */
+.carousel-image {
+  max-height: 500px;
+  width: auto; 
+  margin: auto;
+  object-fit: contain; 
+}
+  
+  /* Review card styling */
+  .review-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .like-btn {
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .like-btn.active {
+    color: red;
+  }
+  
+  /* Contact form animation */
+  .contact-form {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
